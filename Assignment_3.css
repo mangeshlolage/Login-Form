@@ -1,0 +1,115 @@
+body{
+    background-color: #778da9;
+}
+
+
+@media only screen and (max-width:360px){
+    body{
+        background-color: #002e62;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+    }
+}
+
+*{
+    color: rgb(0, 0, 0);
+}
+
+
+.logo{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes anime{
+    0% {background-color: red;}
+    25% {background-color: rgb(51, 51, 239);}
+    50% {background-color: violet;}
+    75% {background-color: peru;}
+    100% {background-color: orangered;}
+}
+
+.anime{
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.container{
+    border-radius: 10px;
+    height: 480px;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #a3c4bc;
+}
+
+.num1{
+    text-align: justify;
+    margin-left: 60px;
+}
+
+.num2{
+    text-align: justify;
+    margin-left: 60px;
+}
+.num3{
+    text-align: justify;
+    margin-left: 60px;
+}
+.num4{
+    text-align: justify;
+    margin-left: 60px;
+}
+.num5{
+    text-align: justify;
+    margin-left: 60px;
+}
+.num6{
+    text-align: justify;
+    margin-left: 60px;
+}
+
+.a{
+    margin-left: 26px;
+}
+
+.c{
+    margin-left: 33px;
+}
+
+.d{
+    margin-left: 33px;
+}
+
+.e{
+    margin-left: 10px;
+}
+
+.f{
+    margin-left: 51px;
+}
+
+button{
+    background-color: #a3c4bc;
+    border-color: #a3c4bc;
+    border-radius: 3px;
+    border-color: #778da9;
+    height: 30px;
+    width: 80px;
+}
+
+button:hover{
+    background-color: #4e709b;
+}
